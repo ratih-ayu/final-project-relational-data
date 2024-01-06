@@ -6,7 +6,7 @@ CREATE TABLE user_info(
 						kota_id int NOT NUL,
 						CONSTRAINT fK_kota_id
 							   FOREIGN KEY (kota_id)
-							   REFERENCES kota (kota_id);
+							   REFERENCES kota (kota_id));
 CREATE TABLE product (
 						product_id int PRIMARY KEY,
 						brand varchar (50) NOT NULL,
